@@ -6,32 +6,25 @@ p,a,input,label,textarea,span,ul,li{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.btn{
-    background: rgba(16, 137, 236, 0.863);
-    color: white;
-    padding: 5px 20px;
-    border-radius: 20px;
+header {
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#e2e2e2;
 }
-
-#intro .jumbotrom{
-    height: 70vh;
-}
-
-#intro h1{
-    font-size: 52px;
-    font-weight: 400;
-    line-height: 1.5;
-}
-
-#intro .container{
-    position: relative;
-    top: 50%;
-    transform: 90%;
-}
-
 header nav img{
     width: 120px;
 }
+
 header li{
     margin: 0 9px;
+}
+
+footer {
+    height: 40px;
+    box-sizing: border-box;
+    /* 設定footer絕對位置在底部 */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#e2e2e2;
 }
