@@ -6,7 +6,7 @@ p,a,input,label,textarea,span,ul,li{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-header {
+header{
     width: 100%;
     box-sizing: border-box;
     background-color:#e2e2e2;
@@ -20,13 +20,23 @@ header li{
     margin: 0 9px;
 }
 
-footer {
-    height: 26px;
+footer{
+    height: 100px;
     box-sizing: border-box;
-    /* 設定footer絕對位置在底部 */
+    /* 設定footer絕對位置在底部*/
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color:#e2e2e2;
     text-align: center;
+    max-height: 27px;
+    margin:0;
 }
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+    
+
+
